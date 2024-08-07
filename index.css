@@ -199,6 +199,7 @@
     box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
     margin: 0 auto;
     position: absolute;
+    transform: translateY(-50%);
 }
 .footer__top h4{
     font-size: 35px;
@@ -232,4 +233,109 @@
     font-size: 16px;
     font-weight: 600;
     border-radius: 0 8px 8px 0;
+    transition: all .5s;
+}
+.footer__top button:hover {
+    background: #254aa8;
+}
+.footer__bottom {
+    background: #070e20;
+    color: white;
+    margin: 32px 0 0;
+    padding: 180px 0 40px;
+}
+.footer__bottom h6{
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    line-height: 20px;
+    border-bottom: 1px solid rgba(23, 54, 88, 0.4);
+    font-weight: bold;
+}
+.footer__bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+.footer__bottom ul li{
+    font-size: 14px;
+    line-height: 24px;
+    color: #cecece;
+    margin: 0 0 10px 0;
+    display: block;
+    transition: all .5s;
+}
+.footer__bottom ul li i{
+    color: white;
+    margin-right: 20px;
+}
+.archives i, .categories i{
+    font-size: 8px;
+    margin-right: 10px;
+    text-align: center;
+    color: white;
+}
+
+.footer__contact li{
+    margin-top: 10px;
+    padding: 6px 0;
+    font-size: 15px;
+}
+.footer__contact li a{
+    text-decoration: none;
+    color: #cecece;
+    transition: all .5s;
+}
+.footer__contact i{
+    font-size: 14px;
+}
+.footer__about p{
+    font-size: 14px;
+    color: #cecece;
+}
+
+.footer__about .footer__social ul li{
+    display: inline;
+}
+.footer__social ul li i{
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #131c30;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.archives li:hover, .categories li:hover, .footer__contact a:hover {
+    color: white;
+    cursor: pointer;
+}
+.footer__about li:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.footer__item {
+    padding: 0 15px;
+}
+.footer__item.special {
+    border-right: 1px solid rgba(23, 54, 88, 0.4);
+}
+@media screen and (max-width: 991.98px) {
+    .footer__item.special {
+        border-right: none;
+    }
+}
+.copyright {
+    background: #040a18;
+    color: #cecece;
+}
+.copyright p{
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.copyright a{
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+}
+.copyright a:hover {
+    text-decoration: underline;
 }
