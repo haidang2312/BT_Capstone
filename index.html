@@ -23,6 +23,318 @@
 </head>
 
 <body>
+    <!-- Right Sidebar -->
+    <div class="pull-right-demo-bar toggle-right-sidebar">
+        <span
+          class="fa title-open-right-sidebar tooltipstered fa-angle-double-right"
+        ></span>
+      </div>
+      <div class="right-sidebar-notifications nav-collapse" id="right-sidebar">
+        <div
+          class="bs-example bs-example-tabs right-sidebar-tab-notification"
+          data-example-id="togglable-tabs"
+        >
+          <div class="w3l-demo-bar" id="w3lDemoBar">
+            <div class="demo-btns">
+              <a href="#">
+                <span class="w3l-icon -back">
+                  <span class="fa fa-arrow-left"></span>
+                </span>
+                <span class="w3l-text">Back</span>
+              </a>
+              <a href="#">
+                <span class="w3l-icon -download">
+                  <span class="fa fa-download"></span>
+                </span>
+                <span class="w3l-text">Download</span>
+              </a>
+              <a class="no-margin-bottom-mobile" href="#">
+                <span class="w3l-icon -buy">
+                  <span class="fa fa-shopping-cart"></span>
+                </span>
+                <span class="w3l-text">Buy</span>
+              </a>
+            </div>
+          </div>
+          <div
+            class="right-sidebar-panel-content animated fadeInRight"
+            tabindex="5003"
+          ></div>
+        </div>
+      </div>
+  
+      <!--header -->
+      <section class="w3l-top-header">
+        <div class="container-fluid bg-primary text-white py-2">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md-auto d-flex align-items-center HeaderLeftInfo">
+              <ul class="list-unstyled d-flex mb-0">
+                <li class="me-4">
+                  <a class="text-white" href="contact">Have any question ?</a>
+                </li>
+                <li class="me-4">
+                  <i class="fas fa-phone"></i>
+                  <a class="text-white" href="tel:+1(21) 234 4567"
+                    >+1(21) 234 4567</a
+                  >
+                </li>
+                <li>
+                  <i class="fas fa-envelope"></i>
+                  <a class="text-white" href="mailto:mail@example.com"
+                    >mail@example.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-auto SocialIcons">
+              <ul class="list-unstyled d-flex mb-0">
+                <li class="me-3">
+                  <a class="text-white" href="https://facebook.com/w3layouts">
+                    <span class="fab fa-facebook"></span>
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="text-white" href="https://twitter.com/w3layouts">
+                    <span class="fab fa-twitter"></span>
+                  </a>
+                </li>
+                <li class="me-3">
+                  <a class="text-white" href="https://instagram.com/w3layouts">
+                    <span class="fab fa-instagram"></span>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-white" href="https://linkedin.com/w3layouts">
+                    <span class="fab fa-linkedin"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <header class="main-header">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img
+                src="https://wp.w3layouts.com/studious/wp-content/themes/studious/assets/images/logo.png"
+                alt="logo"
+                height="40"
+                class="me-2"
+              />
+              <span class="fw-bold">Studious</span>
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNav"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle text-uppercase"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Pages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex ms-lg-3">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Enter Keyword"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-primary" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+              </form>
+              <button class="btn btn-light ms-3" id="theme-switcher">
+                <i class="fas fa-moon"></i>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+  
+      <!-- carousel -->
+      <section class="w3l-main-slider" id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="slider-info banner-view banner-top1 d-flex align-items-center">
+                <div class="container">
+                  <div class="banner-info">
+                    <h1>Master the Skills to<br> Drive your Career</h1>
+                   
+                    <a class="btn btn-style mt-sm-5 mt-4" href="#">
+                      Know More
+                      <i class="fa fa-arrow-right ms-2" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="slider-info banner-view banner-top2 d-flex align-items-center">
+                <div class="container">
+                  <div class="banner-info">
+                    <h1>Studious is the best<br> choice for everyone</h1>
+            
+                    <a class="btn btn-style mt-3" href="#">
+                      Know More
+                      <i aria-hidden="true" class="fa fa-arrow-right ms-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+          <div class="carousel-controls">
+            <button class="carousel-control-custom prev" data-slide="prev">
+              <span class="fas fa-chevron-up" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-custom next" data-slide="next">
+              <span class="fas fa-chevron-down" aria-hidden="true"></span>
+            </button>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Features Section -->
+      <section class="w3l-bottom-grids-6 py-5 text-center" id="services">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="feature-box bg-primary text-white p-4">
+                <i class="fas fa-cogs"></i>
+                <h3>Engineering & Architecture</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="feature-box bg-warning text-white p-4">
+                <i class="fas fa-book"></i>
+                <h3>Learning Management</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="feature-box bg-danger text-white p-4">
+                <i class="fas fa-coffee"></i>
+                <h3>Business & Management</h3>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+              <div class="feature-box bg-success text-white p-4">
+                <i class="fas fa-hourglass-half"></i>
+                <h3>Artificial Intelligence</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+       
+      </section>
+  
+      <!-- Welcome Section -->
+      <section class="w3l-feature-8 py-5">
+        <div class="container text-center py-md-5 py-4">
+          <div class="title-heading-w3 mx-auto mb-5 pb-sm-4">
+            <h3 class="title-main">Welcome to <span>Studious</span></h3>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="feature-body">
+                <div class="feature-images">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fas fa-graduation-cap fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="feature-info mt-4">
+                  <h3 class="feature-title">Trending Courses</h3>
+                  <p class="feature-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                    eiusmod te incididunt
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="feature-body">
+                <div class="feature-images">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fas fa-users fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="feature-info mt-4">
+                  <h3 class="feature-title">Certified Teachers</h3>
+                  <p class="feature-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                    eiusmod te incididunt
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <div class="feature-body">
+                <div class="feature-images">
+                  <span class="fa-stack fa-2x">
+                    <i class="fas fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fas fa-book fa-stack-1x fa-inverse"></i>
+                  </span>
+                </div>
+                <div class="feature-info mt-4">
+                  <h3 class="feature-title">Books &amp; Library</h3>
+                  <p class="feature-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
+                    eiusmod te incididunt
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      </section>
+  
+      <!-- back to top -->
+      <button id="topButton" class="btn" title="Back to top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
     <!-- number -->
     <section class="number container py-sm-5 pt-sm-0 pt-5">
         <div class="title">
@@ -329,10 +641,12 @@
     <script>
         $('.counter').countUp();
     </script>
+
     <!-- boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
