@@ -31,13 +31,6 @@
 }
 
 /* Phạm Thị Xuân Hiền */
-/* body, html {
-    margin: 0;
-    padding:0;
-    font-family: 'Montserrat', sans-serif;
-    transition: background-color 0.3s, color 0.3s;
-    height: 100%;
-  } */
   
   .w3l-top-header .list-unstyled li {
     display: flex;
@@ -73,7 +66,7 @@
   }
   
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #007bff;
+    color:  #f44336;
   }
   
   .form-control {
@@ -136,7 +129,59 @@
   body.dark-mode #theme-switcher {
     color: #ff5252;
   }
+/* 
+ */
+ .slider-info {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-left: 10%; /* Điều chỉnh giá trị này để phù hợp với lề mong muốn */
+}
 
+.banner-info {
+  text-align: left;
+  max-width: 600px;
+}
+
+.banner-info h1 {
+  font-size: 55px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.btn-style {
+  background-color: #fff;
+  color: #000;
+  padding: 12px 30px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.btn-style:hover {
+  background-color: #ff6e65;
+  color: #fff;
+}
+
+.btn-style .fa {
+  margin-left: 8px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.mt-sm-5 {
+  margin-top: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
   /* main section */
   .w3l-main-slider {
     width: 100%;
@@ -185,8 +230,6 @@
     background-size: cover;
     background-position: center;
   }
-
-
 
   
   .carousel-control-custom {
@@ -320,23 +363,42 @@
 }
 
 /* Features Section */
+.w3l-bottom-grids-6 {
+  margin-top: -100px; 
+  position: relative;
+  z-index: 1;
+}
 
 .feature-box {
-    border-radius: 8px;
-    /* transition: transform 0.3s, box-shadow 0.3s, color 0.3s; */
-    transition: transform 0.3s, box-shadow 0.3s;
-    cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 20px;
 }
+
+.feature-box i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.feature-box h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: white;
+}
+
 
 .feature-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* .feature-box:hover h4, 
-.feature-box:hover i {
-    color: black; /* Change text and icon color on hover */
- 
+
 
 .feature-box:hover h3 {
     color: black; 
@@ -366,8 +428,21 @@
 
 .feature-box i {
     color: white; 
+    font-size: 48px;
+    margin-bottom: 15px;
 }
-
+.bg-primary {
+  background-color: #4285f4 !important;
+}
+@media (max-width: 991px) {
+  .w3l-bottom-grids-6 {
+    margin-top: 20px;
+  }
+  
+  .feature-box {
+    margin-bottom: 20px;
+  }
+}
 
 
 /* Welcome Section  */
@@ -424,3 +499,29 @@
   margin: 0 auto;
   max-width: 250px;
 }
+
+#topButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #4267B2; 
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+#topButton:hover {
+  background-color: #365899; 
+}
+
+#topButton i {
+  color: white;
+  font-size: 20px;
+}
+
+
